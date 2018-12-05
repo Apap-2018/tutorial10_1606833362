@@ -36,7 +36,7 @@ export class UpdatePasien extends React.Component {
 		this.setState({
 			loading: true
 		})
-		
+
 		const data = new FormData(e.target)
 		const dataJson = {}
 
